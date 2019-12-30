@@ -8,6 +8,8 @@ Pytorch implementtation of EfficientDet object detection as described in [Effici
 
 This implementation is a very simple version without many data augmentation.
 
+**QQ-group: 607724770(Torch交流群)**
+
 ## Acknowledgements
 - The EfficientNet code are borrowed from the [A PyTorch implementation of EfficientNet](https://github.com/lukemelas/EfficientNet-PyTorch)
 - The code of RetinaNet are borrowed from the [Pytorch implementation of RetinaNet object detection.](https://github.com/yhenon/pytorch-retinanet)
