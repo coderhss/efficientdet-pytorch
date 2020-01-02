@@ -307,8 +307,8 @@ url_map = {
 
 def load_pretrained_weights(model, model_name, load_fc=False):
     """ Loads pretrained weights, and downloads if loading for the first time. """
-    # state_dict = model_zoo.load_url(url_map[model_name])
-    state_dict = torch.load('/home/huashuoshuo/bishe/efficientnet_pretrained/efficientnet-b0-355c32eb.pth')
+    state_dict = model_zoo.load_url(url_map[model_name])
+    # state_dict = torch.load('/home/pre_trained/efficientnet-b0-355c32eb.pth')
     if load_fc:
         model.load_state_dict(state_dict)
     else:
