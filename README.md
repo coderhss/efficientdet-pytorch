@@ -10,7 +10,7 @@ This implementation is a very simple version without many data augmentation.
 
 The EfficientNet code are borrowed from the [A PyTorch implementation of EfficientNet](https://github.com/lukemelas/EfficientNet-PyTorch),if you want to train EffcicientDet from scratch,you should load the efficientnet pretrained parameter. use
 
-```python
+```
 python train.py --coco_path '/home/hoo/Dataset/COCO' --backbon 'efficientnet-b0' --backbone_pretrained True
 ```
 
@@ -18,7 +18,7 @@ and the efficientnet pretrainied parameter will be download and load automatical
 
 I've only trained efficientdet-d0 so far,and without many data augmentation.if you want to load efficientnet pretrained parameter,use
 
-```python
+```
 python train.py --coco_path '/home/hoo/Dataset/COCO' --backbone 'efficientnet-b0' --backbone_pretrained False --EfficientDet_pretrained True --pretrained './weights/efficientdet_0.pth'
 ```
 
