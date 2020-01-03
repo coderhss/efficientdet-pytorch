@@ -21,10 +21,9 @@ I've only trained efficientdet-d0 so far,and without many data augmentation.if y
 ```
 python train.py --coco_path '/home/hoo/Dataset/COCO' --backbone 'efficientnet-b0' --backbone_pretrained False --EfficientDet_pretrained True --pretrained './weights/efficientdet_0.pth'
 ```
-
 |      Model      |  mAP  |                         pre_trained                          |
 | :-------------: | :---: | :----------------------------------------------------------: |
-| efficientdet-d0 | 23.2% | [download](https://drive.google.com/open?id=1UgQp9wqtc1O_EabU9O6NWNG6B8imYmv_) |
+| efficientdet-d0 | 25.9% | [download](https://drive.google.com/open?id=1UgQp9wqtc1O_EabU9O6NWNG6B8imYmv_) |
 
 **QQ-group: 607724770(Torch交流群)**
 
